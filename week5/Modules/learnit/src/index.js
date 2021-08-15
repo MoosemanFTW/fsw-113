@@ -1,11 +1,6 @@
-import *  as mod from "./module11" // .js ext is not required
+import { default as Person } from "./Person13"
 
- 
+Person.firstName = 'Mary'
 
-mod.courseName = "FSW113"
-mod.liveSession = "Spring2020"
-
-console.log( "From Module 12", mod.courseName)
-console.log( "From Module 12", mod.liveSession)
-
-console.log( "From Module 12", mod.combine( ))
+Person.lastName = 'Lutten'
+console.log( Person.firstName, Person.lastName)
